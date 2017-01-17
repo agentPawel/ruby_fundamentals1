@@ -28,6 +28,6 @@ puts grocery_list[1]
 grocery_list.sort!
 
 # 6. Delete salmon from your list and redisplay the list one last time.
-grocery_list.pop
+grocery_list.delete("salmon")
 
 list(grocery_list)
